@@ -1,0 +1,539 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum=".0"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/aString"
+            android:text="Bench Machine"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/aa"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ab"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ac"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ad"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/bString"
+            android:text="Incline Bench Machine"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ba"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/bb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/bc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/bd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/cString"
+            android:text="Skull Crushes"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ca"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/cb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/cc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/cd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/dString"
+            android:text="Assisted Pullups"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/da"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/db"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/dc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/dd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/eString"
+            android:text="BenchRows"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ea"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/eb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ec"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ed"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/fString"
+            android:text="Seated Bicep Curls"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/fa"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/fb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/fc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/fd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/gString"
+            android:text="TRX Squats"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ga"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/gb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/gc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/gd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/hString"
+            android:text="Leg Press"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ha"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/hb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/hc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/hd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/iString"
+            android:text="Split Squats"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ia"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ib"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ic"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/id"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/jString"
+            android:text="Assisted Crunches"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ja"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/jb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/jc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/jd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/kString"
+            android:text="Leg Raises"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ka"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/kb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/kc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/kd"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/lString"
+            android:text="Shoulder Touches"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/la"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/lb"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/lc"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/ld"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+    </TableRow>
+
+</TableLayout>
