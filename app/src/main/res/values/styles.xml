@@ -5,4 +5,18 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/grape</item>
+        <item name="colorPrimaryDark">@color/grape</item>
+        <item name="android:textColorPrimary">@color/grape</item>
+        <!-- The following line changes it so the selected editText no longer has a green highlight beneath it, it is now purple. Same with the cursor. Changes the "accents"-->
+        <item name="colorAccent">@color/grape</item>
+        <!-- -->
+        <item name="android:textColor">@color/grape</item>
+        <item name="android:colorBackground">@color/grey</item>
+
+
+        </style>
+
 </resources>
