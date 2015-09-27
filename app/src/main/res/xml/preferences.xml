@@ -4,4 +4,8 @@
         <intent android:action="android.intent.action.VIEW"
             android:data="http://www.kyleavalani.com" />
     </Preference>
+    <Preference android:title="Legal Information" >
+        <intent android:action="android.intent.action.VIEW"
+            android:data="http://www.kyleavalani.com/legal" />
+    </Preference>
 </PreferenceScreen>
