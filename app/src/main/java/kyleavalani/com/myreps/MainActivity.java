@@ -16,6 +16,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
@@ -73,7 +76,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void takeScreenshot() {
         Date now = new Date();
-        android.text.format.DateFormat.format("yyyy-MM-dd_hh:mm:ss", now);
+        android.text.format.DateFormat.format("EEE, MMM d, ''yy", now);
+        DateFormat df = new SimpleDateFormat("EEE, d MMM yyyy, HH:mm");
+        String date = df.format(Calendar.getInstance().getTime());
 
         try {
             // image naming and path  to include sd card  appending name you choose for file
@@ -87,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
             //File imageFile = new File(mPath);
             //File imageFile = new File(Environment.getExternalStorageDirectory() + File.separator + "/Pictures/" + "/Screenshots/" + "test.jpg");
-            File imageFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + File.separator +  "/Screenshots/" + "test.jpg");
+            File imageFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + File.separator +  "/Screenshots/" + date +".jpg");
 
             FileOutputStream outputStream = new FileOutputStream(imageFile);
             int quality = 100;
