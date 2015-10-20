@@ -51,26 +51,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (id == R.id.save) {
-            //Intent i = new Intent(this,SavingActivity.class);
-            //startActivity(i);
-
-
-
-
             takeScreenshot();
-
-
-
-
-
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-
-
-
 
 
 
@@ -90,9 +76,7 @@ public class MainActivity extends AppCompatActivity {
             Bitmap bitmap = Bitmap.createBitmap(v1.getDrawingCache());
             v1.setDrawingCacheEnabled(false);
 
-            //File imageFile = new File(mPath);
-            //File imageFile = new File(Environment.getExternalStorageDirectory() + File.separator + "/Pictures/" + "/Screenshots/" + "test.jpg");
-            File imageFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + File.separator +  "/Screenshots/" + date +".jpg");
+            File imageFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + File.separator +  "/Screenshots/" + date + ".jpg");
 
             FileOutputStream outputStream = new FileOutputStream(imageFile);
             int quality = 100;
