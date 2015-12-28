@@ -1,5 +1,6 @@
 package kyleavalani.com.myreps;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -11,6 +12,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -84,7 +86,16 @@ public class MainActivity extends AppCompatActivity {
             outputStream.flush();
             outputStream.close();
 
-            openScreenshot(imageFile);
+
+            Context context = getApplicationContext();
+            CharSequence text = "Screenshot saved!";
+            int duration = Toast.LENGTH_SHORT;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+
+
+            //openScreenshot(imageFile);
         } catch (Throwable e) {
             // Several error may come out with file handling or OOM
             e.printStackTrace();
